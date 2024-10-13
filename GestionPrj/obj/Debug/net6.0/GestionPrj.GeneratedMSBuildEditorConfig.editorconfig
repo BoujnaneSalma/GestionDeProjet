@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GestionPrj
+build_property.RootNamespace = GestionPrj
+build_property.ProjectDir = C:\Users\BOUJNANE\Desktop\ASP\GestionProjet\GestionPrj\GestionPrj\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\BOUJNANE\Desktop\ASP\GestionProjet\GestionPrj\GestionPrj
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Projet/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0XEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Projet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Projet/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/RScrum/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUlNjcnVtXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/RScrum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUlNjcnVtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/RScrum/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUlNjcnVtXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Sprint/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByaW50XEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Sprint/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByaW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Sprint/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByaW50XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Tache/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Tache/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Tache/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Tache/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/UserStory/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclN0b3J5XEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/UserStory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclN0b3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/UserStory/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclN0b3J5XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/User/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BOUJNANE/Desktop/ASP/GestionProjet/GestionPrj/GestionPrj/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w9d73fqkd5

@@ -1,0 +1,44 @@
+﻿@model UserStory
+
+<h2>Ajouter une nouvelle UserStory</h2>
+
+<form asp-action="Add" asp-controller="UserStory" method="post">
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Priority" class="control-label"></label>
+        <input asp-for="Priority" class="form-control" />
+        <span asp-validation-for="Priority" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Etat">Etat</label>
+        <input type="text" asp-for="Etat" class="form-control" id="Etat" placeholder="Entrez l'état">
+        <span asp-validation-for="Etat" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Projet">Projet :</label>
+        <select asp-for="ProjetId" class="form-control">
+            <option value="">Sélectionnez un Projet</option>
+            @foreach (Projet p in ViewBag.projets)
+            {
+                <option value="@p.Id">@p.Nom</option>
+            }
+        </select>
+    </div>
+
+    
+
+    <div class="form-group">
+        <input type="submit" value="Ajouter" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Retour à la liste</a>
+</div>

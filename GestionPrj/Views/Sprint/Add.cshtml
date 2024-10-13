@@ -1,0 +1,55 @@
+﻿@model GestionPrj.Models.Sprint
+
+<h2>Ajouter un nouveau Sprint</h2>
+
+<form asp-action="Add" asp-controller="Sprint" method="post">
+    <div class="form-group">
+        <label asp-for="Nom"></label>
+        <input asp-for="Nom" class="form-control" />
+        <span asp-validation-for="Nom" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Date_debut"></label>
+        <input asp-for="Date_debut" type="datetime-local" class="form-control" />
+        <span asp-validation-for="Date_debut" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Date_fin"></label>
+        <input asp-for="Date_fin" type="date" class="form-control" />
+        <span asp-validation-for="Date_fin" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Sprint_Backlog"></label>
+        <textarea asp-for="Sprint_Backlog" class="form-control" rows="5"></textarea>
+
+        <span asp-validation-for="Sprint_Backlog" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Projet">Projet :</label>
+        <select asp-for="ProjetId" class="form-control">
+            <option value="">Sélectionnez un projet</option>
+
+
+            @foreach (Projet p in ViewBag.projets)
+            {
+                <option value="@p.Id">@p.Nom</option>
+
+            }
+
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="selectedUserStoryIds" class="control-label">User Stories :</label>
+        <select id="selectedUserStoryIds" name="selectedUserStoryIds" class="form-control" multiple="multiple">
+            @foreach (var us in ViewBag.UserStories)
+            {
+                <option value="@us.Id">@us.Description</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+</form>

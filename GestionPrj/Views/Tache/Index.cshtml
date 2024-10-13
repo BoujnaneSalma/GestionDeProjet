@@ -1,0 +1,41 @@
+﻿@model List<GestionPrj.Models.Tache>
+
+<a asp-action="Add" asp-controller="Tache" class="btn btn-primary">Ajouter</a>
+
+<div class="container">
+    <h2>Liste des Taches</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Estimation du Temps</th>
+                <th>User Story</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach(Tache T in Model)
+            {
+                <tr>
+                    <td>@T.Id</td>
+                    <td>@T.Description</td>
+                   
+                    <td>@(T.Estimation_Temps != null ? T.Estimation_Temps : "disponible")</td>
+
+                    <td>@T.UserStory.Description</td>
+                
+           
+            
+           <td>
+
+                <a asp-action="Update" asp-controller="Tache" asp-route-id="@T.Id" class="btn btn-primary">Modifier</a>
+            <a asp-action="Delete" asp-controller="Tache" onclick="return confirm('vous etes sur de supprimer ?')" asp-route-id="@T.Id" class="btn btn-danger">Supprimer</a>
+                    </td>
+                </tr> 
+               
+            }
+        </tbody>
+    </table>
+</div>

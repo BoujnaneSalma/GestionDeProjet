@@ -1,0 +1,125 @@
+﻿@model List<GestionPrj.Models.Sprint>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planification des sprints</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        .sprints-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .sprint-container {
+            width: 300px;
+            min-height: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .sprint-header {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .sprint-objective {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .sprint-tasks {
+            max-height: 100px; /* Adjust the height as needed */
+            overflow-y: auto;
+        }
+
+            .sprint-tasks ul {
+                padding-left: 20px;
+                list-style-type: disc;
+            }
+
+        .create-sprint {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .action-icons {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+            .action-icons a {
+                color: #007bff;
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Planification des sprints</h2>
+            <div class="create-sprint">
+                <a asp-action="Add" asp-controller="Sprint" class="btn btn-link">
+                    <i class="fas fa-plus-circle"></i> Créer un sprint
+                </a>
+            </div>
+            <div class="col-12">
+              
+                <div class="sprints-container">
+                    @foreach (var sprint in Model)
+                    {
+                        <div class="sprint-container">
+                            <div class="action-icons">
+                                <a asp-action="Update" asp-controller="Sprint" asp-route-id="@sprint.Id">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a asp-action="Delete" asp-controller="Sprint" asp-route-id="@sprint.Id" onclick="return confirm('Vous êtes sûr de vouloir supprimer ce sprint ?')">
+                                    <i class="fas fa-trash-alt"></i>
+                                </a>
+                            </div>
+                            <div class="sprint-header">@sprint.Nom (@sprint.Date_debut.ToString("dd/MM") - @sprint.Date_fin.ToString("dd/MM"))</div>
+                            <div class="sprint-objective">- Sprint_Backlog : @sprint.Sprint_Backlog</div>
+                            <div class="sprint-details">
+                                <p>- Sprint Backlog : @sprint.Sprint_Backlog</p>
+                                <p>- Projet : @sprint.Projet?.Nom</p>
+                                <p>- Reunion Scrum : @sprint.RScrum?.Type</p>
+                            </div>
+                            <div class="sprint-tasks">
+                                <p>- User Story :</p>
+                                <ul>
+                                    @foreach (var task in sprint.UserStories)
+                                    {
+                                        <li>@task.Description</li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="create-sprint">
+                    <a asp-action="Add" asp-controller="Sprint" class="btn btn-link">
+                        <i class="fas fa-plus-circle"></i> Créer un sprint
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+</body>
+</html>

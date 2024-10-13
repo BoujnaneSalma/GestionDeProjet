@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|c:\\users\\boujnane\\desktop\\asp\\gestionprojet\\gestionprj\\gestionprj\\controllers\\tachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\controllers\\tachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\tache\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\tache\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\tache\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\tache\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\models\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\models\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\controllers\\projetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\controllers\\projetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\models\\projet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\models\\projet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\projet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\projet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\projet\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\projet\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\models\\userstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\models\\userstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\sprint\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\sprint\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\userstory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\userstory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\controllers\\userstorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\controllers\\userstorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\models\\userprojet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\models\\userprojet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\models\\sprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\models\\sprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\controllers\\sprintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\controllers\\sprintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\sprint\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\sprint\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\controllers\\rscrumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\controllers\\rscrumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\userstory\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\userstory\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\sprint\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\sprint\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\rscrum\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\rscrum\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\projet\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\projet\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\rscrum\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\rscrum\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\userstory\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\userstory\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\rscrum\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\rscrum\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\models\\rscrum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\models\\rscrum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\context\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\context\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\models\\userreunion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\models\\userreunion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\tache\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\tache\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\gestionprj\\views\\tache\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:gestionprj\\views\\tache\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Migrations\\20240605114239_deleteEtat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A8BEC-3897-4C8F-9A5C-7585E7F4F8F2}|GestionPrj\\GestionPrj.csproj|solutionrelative:GestionPrj\\Migrations\\20240605114239_deleteEtat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Sprint.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\Sprint.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Models\\Sprint.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\Sprint.cs",
+              "RelativeToolTip": "GestionPrj\\Models\\Sprint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:52:42.174Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tache.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\Tache.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Models\\Tache.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\Tache.cs",
+              "RelativeToolTip": "GestionPrj\\Models\\Tache.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:23:27.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TacheController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\TacheController.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Controllers\\TacheController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\TacheController.cs",
+              "RelativeToolTip": "GestionPrj\\Controllers\\TacheController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:23:41.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserStory.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\UserStory.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Models\\UserStory.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\UserStory.cs",
+              "RelativeToolTip": "GestionPrj\\Models\\UserStory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:01:00.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Projet.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\Projet.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Models\\Projet.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\Projet.cs",
+              "RelativeToolTip": "GestionPrj\\Models\\Projet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:55:55.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjetController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\ProjetController.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Controllers\\ProjetController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\ProjetController.cs*",
+              "RelativeToolTip": "GestionPrj\\Controllers\\ProjetController.cs*",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:09:15.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Projet\\Add.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Projet\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Projet\\Add.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Projet\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T22:55:38.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Projet\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Projet\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Projet\\Index.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Projet\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T22:54:05.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Tache\\Add.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Tache\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Tache\\Add.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Tache\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T11:19:52.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Tache\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Tache\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Tache\\Index.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Tache\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T11:20:01.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Sprint\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Sprint\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Sprint\\Index.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Sprint\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAiwGwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T08:59:25.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProjet.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\UserProjet.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Models\\UserProjet.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\UserProjet.cs",
+              "RelativeToolTip": "GestionPrj\\Models\\UserProjet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:50:08.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserStoryController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\UserStoryController.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Controllers\\UserStoryController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\UserStoryController.cs",
+              "RelativeToolTip": "GestionPrj\\Controllers\\UserStoryController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAqwDsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:18:58.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\UserController.cs",
+              "RelativeToolTip": "GestionPrj\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:09:42.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\UserStory\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\UserStory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\UserStory\\Index.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\UserStory\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T11:20:20.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Sprint\\Add.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Sprint\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Sprint\\Add.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Sprint\\Add.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAwC8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:06:34.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\UserStory\\Add.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\UserStory\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\UserStory\\Add.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\UserStory\\Add.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwCIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T23:04:24.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SprintController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\SprintController.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Controllers\\SprintController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\SprintController.cs",
+              "RelativeToolTip": "GestionPrj\\Controllers\\SprintController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:54:26.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RScrumController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\RScrumController.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Controllers\\RScrumController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Controllers\\RScrumController.cs",
+              "RelativeToolTip": "GestionPrj\\Controllers\\RScrumController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T13:35:45.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Sprint\\Update.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Sprint\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Sprint\\Update.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Sprint\\Update.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAIwDEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T08:35:06.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\RScrum\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\RScrum\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\RScrum\\Index.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\RScrum\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T22:49:58.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240605114239_deleteEtat.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Migrations\\20240605114239_deleteEtat.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Migrations\\20240605114239_deleteEtat.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Migrations\\20240605114239_deleteEtat.cs",
+              "RelativeToolTip": "GestionPrj\\Migrations\\20240605114239_deleteEtat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:42:39.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Projet\\Update.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Projet\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Projet\\Update.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Projet\\Update.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAWwBkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T07:52:24.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\RScrum\\Add.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\RScrum\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\RScrum\\Add.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\RScrum\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T09:30:19.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Context\\MyContext.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Context\\MyContext.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Context\\MyContext.cs",
+              "RelativeToolTip": "GestionPrj\\Context\\MyContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAD4vxsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:05:37.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\RScrum\\Update.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\RScrum\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\RScrum\\Update.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\RScrum\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T09:30:55.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\UserStory\\Update.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\UserStory\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\UserStory\\Update.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\UserStory\\Update.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T07:45:36.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\User.cs",
+              "RelativeToolTip": "GestionPrj\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:06:45.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MyContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Migrations\\MyContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeToolTip": "GestionPrj\\Migrations\\MyContextModelSnapshot.cs",
+              "ViewState": "AQIAADsBAAAAAAAAAAAYwGABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:05:21.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RScrum.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\RScrum.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Models\\RScrum.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\RScrum.cs",
+              "RelativeToolTip": "GestionPrj\\Models\\RScrum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T13:31:18.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserReunion.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\UserReunion.cs",
+              "RelativeDocumentMoniker": "GestionPrj\\Models\\UserReunion.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Models\\UserReunion.cs",
+              "RelativeToolTip": "GestionPrj\\Models\\UserReunion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:12:23.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAABBwBgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T09:18:08.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Tache\\Detail.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Tache\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Tache\\Detail.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Tache\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:00:49.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowC4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T11:20:14.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\User\\Add.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\User\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\User\\Add.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\User\\Add.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowDEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:00:36.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Tache\\Update.cshtml",
+              "RelativeDocumentMoniker": "GestionPrj\\Views\\Tache\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionProjet\\GestionPrj\\GestionPrj\\Views\\Tache\\Update.cshtml",
+              "RelativeToolTip": "GestionPrj\\Views\\Tache\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:01:12.081Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

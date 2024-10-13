@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Tableau Kanban</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        .kanban-board {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .kanban-column {
+            flex: 1;
+            margin-right: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+        }
+
+        .kanban-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 3px;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.10.2"></script>
+</head>
+<body>
+    
+        <div class="kanban-board">
+        <div id="todo" class="kanban-column">
+            <h2 class="text-center">À FAIRE</h2>
+            @foreach (UserStory s in Model)
+            {
+                
+               
+                if (s.Etat == "À FAIRE")
+                {
+                    <div class="kanban-item">
+                        @s.Description
+                        <ul>
+
+
+                            @foreach (var tache in s.Taches)
+                            {
+                                <li>@tache.Description</li>
+
+
+                            }
+                        </ul>
+                       
+                    </div>
+                }
+               
+            }
+            <a asp-action="Add" asp-controller="UserStory" class="btn btn-link p-0 ml-2">
+                <i class="fas fa-plus-circle"></i> <!-- Icône pour ajouter une tâche -->
+            </a>
+            
+        </div>
+        <div id="in-progress" class="kanban-column">
+            <h2 class="text-center">EN COURS</h2>
+            @foreach (UserStory s in Model)
+            {
+                if (s.Etat == "EN COURS")
+                {
+                    <div class="kanban-item">@s.Description
+                    <ul>
+
+
+                        @foreach (var tache in s.Taches)
+                        {
+                            <li>@tache.Description</li>
+
+
+                        }
+                        </ul>
+                    </div>
+                }
+            }
+            <a asp-action="Add" asp-controller="UserStory" class="btn btn-link p-0 ml-2">
+                <i class="fas fa-plus-circle"></i> <!-- Icône pour ajouter une tâche -->
+            </a>
+
+        </div>
+        <div id="done" class="kanban-column">
+            <h2 class="text-center">TERMINÉ</h2>
+            @foreach (UserStory s in Model)
+            {
+                if (s.Etat == "TERMINÉ")
+                {
+                    <div class="kanban-item">@s.Description
+                        <ul>
+
+
+                            @foreach (var tache in s.Taches)
+                            {
+                                <li>@tache.Description</li>
+
+
+                            }
+                        </ul>
+                    </div>
+                }
+            }
+            <a asp-action="Add" asp-controller="UserStory" class="btn btn-link p-0 ml-2">
+                <i class="fas fa-plus-circle"></i> <!-- Icône pour ajouter une tâche -->
+            </a>
+
+        </div>
+
+        
+
+    </div>
+   
+    <script>
+        new Sortable(document.getElementById('todo'), {
+            group: 'shared',
+            animation: 150
+        });
+        new Sortable(document.getElementById('in-progress'), {
+            group: 'shared',
+            animation: 150
+        });
+        new Sortable(document.getElementById('done'), {
+            group: 'shared',
+            animation: 150
+        });
+       
+
+   
+
+
+    </script>
+</body>
+</html>
+@model List<GestionPrj.Models.UserStory>
+<br />
+<a asp-action="Add" asp-controller="UserStory" class="btn btn-primary">Ajouter</a>/ <a asp-action="Add" asp-controller="Tache" class="btn btn-primary">Ajouter Tache</a>
+<h2>Liste des UserStories</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Priorité</th>
+            <th>Etat</th>
+            <th>Utilisateur</th>
+            <th>Projet</th>
+            <th>Sprint</th>
+            <th>Taches</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (UserStory US in Model)
+        {
+            <tr>
+                <td>@US.Description</td>
+                <td>@US.Priority</td>
+                <td>@US.Etat</td>
+                <td>@(US.User != null ? US.User.Nom : "disponible")</td>
+                <td>@US.Projet.Nom</td> 
+                
+                <td>@(US.Sprint != null ? US.Sprint.Nom : "disponible")</td>
+                <td>
+                    <ul>
+
+
+                        @foreach (var tache in US.Taches)
+                        {
+                            <li>@tache.Description</li>
+
+
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <a asp-action="Update" asp-controller="UserStory" asp-route-id="@US.Id" class="btn btn-primary">Modifier</a>
+                    <a asp-action="Delete" asp-controller="UserStory" onclick="return confirm('vous etes sur de supprimer ?')" asp-route-id="@US.Id" class="btn btn-danger">Supprimer</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

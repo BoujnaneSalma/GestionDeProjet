@@ -1,0 +1,60 @@
+﻿@model List<GestionPrj.Models.User>
+<a asp-action="Add" asp-controller="User" class="btn btn-primary">Ajouter</a>
+
+<div class="container">
+    <h2>Liste des Users</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Photo</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Role</th>
+                <th>User story</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (User U in Model)
+            {
+                <tr>
+                    <td>@U.Id</td>
+                    <td>@U.Nom</td>
+                    <td>@U.Prenom</td>
+                    <td><img src="~/img/@U.Photo" width="100" height="100" /></td>
+                    <td>@U.Email</td>
+                    <td>@U.Password</td>
+                    <td>@U.Role</td>
+
+                    <td>
+                        <ul class="sprint-list">
+                            @{
+                                int count = 0;
+                               @foreach (var US in U.UserStories)
+                                {
+                                    <li class="@(count++ >= 3 ? "hidden-sprint" : "")">@US.Description</li>
+                                }
+                            }
+                        </ul>
+                        @if (U.UserStories.Count > 3)
+                        {
+                            <a href="#" class="show-more">Afficher plus</a>
+                            <a href="#" class="show-less" style="display: none;">Afficher moins</a>
+                        }
+                       
+                    </td>
+                    <td>
+
+                        <a asp-action="Update" asp-controller="User" asp-route-id="@U.Id" class="btn btn-primary">Modifier</a>
+                        <a asp-action="Delete" asp-controller="User" onclick="return confirm('vous etes sur de supprimer ?')" asp-route-id="@U.Id" class="btn btn-danger">Supprimer</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

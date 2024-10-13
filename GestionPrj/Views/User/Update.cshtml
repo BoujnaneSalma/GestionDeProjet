@@ -1,0 +1,50 @@
+﻿@model GestionPrj.Models.User
+
+<h2>Modifier un utilisateur</h2>
+
+<form asp-action="Update" asp-controller="User" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Nom">Nom</label>
+        <input type="text" asp-for="Nom" class="form-control" id="Nom" name="Nom" required>
+        <span asp-validation-for="Nom" class="text-danger"></span></>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Prenom">Prenom</label>
+        <input type="text" asp-for="Prenom" class="form-control" id="Prenom" name="Prenom" required>
+        <span asp-validation-for="Prenom" class="text-danger"></span></>
+    </div>
+    <input asp-for="Photo" type="hidden" class="form-control" />
+    <div class="form-group">
+        <div class="form-group">
+            <label name="MyImage">Photo:</label>
+            <input type="file" name="MyImage" class="form-control" />
+            <span asp-validation-for="Photo" class="text-danger"></span>
+            @if (!string.IsNullOrEmpty(Model.Photo))
+            {
+                <img src="@Url.Content($"~/img/{Model.Photo}")" width="100" height="100" />
+            }
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input type="email" asp-for="Email" class="form-control" id="Email" name="Email" required>
+        <span asp-validation-for="Email" class="text-danger"></span></>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password">Mot de passe</label>
+        <input  asp-for="Password" class="form-control" id="Password" name="Password" required>
+        <span asp-validation-for="Password" class="text-danger"></span></>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Role">Role</label>
+        <input type="text" asp-for="Role" class="form-control" id="Role" name="Role" required>
+        <span asp-validation-for="Role" class="text-danger"></span></>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Modifier</button>
+</form>

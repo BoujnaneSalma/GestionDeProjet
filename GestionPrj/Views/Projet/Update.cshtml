@@ -1,0 +1,30 @@
+﻿@model GestionPrj.Models.Projet
+
+<div class="container">
+    <h2>Modifier une  Tache</h2>
+    <form asp-action="Update" asp-controller="Projet" method="post">
+        <div class="form-group">
+            <label asp-for="Nom">Description</label>
+            <input type="text" asp-for="Nom" class="form-control" id="Description" placeholder="Entrez le Nom">
+            <span asp-validation-for="Nom" class="text-danger"></span></>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description">Description</label>
+            <input type="text" asp-for="Description" class="form-control" id="Description" placeholder="Entrez la description">
+            <span asp-validation-for="Description" class="text-danger"></span></>
+        </div>
+        <div class="form-group">
+            <label asp-for="Date_debut">Date debut</label>
+            <input type="date" asp-for="Date_debut" class="form-control" id="Estimation_Temps" placeholder="Entrez La date debut">
+            <span asp-validation-for="Date_debut" class="text-danger"></span></>
+        </div>
+        <div class="form-group">
+            <label asp-for="Date_fin">Date fin</label>
+            <input type="date" asp-for="Date_fin" class="form-control" id="Estimation_Temps" placeholder="Entrez La date fin">
+            <span asp-validation-for="Date_fin" class="text-danger"></span></>
+        </div>
+       
+
+        <button type="submit" class="btn btn-primary">Modifier</button>
+    </form>
+</div>

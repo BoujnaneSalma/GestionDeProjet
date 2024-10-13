@@ -1,0 +1,77 @@
+﻿@model List<GestionPrj.Models.RScrum>
+
+<a asp-action="Add" asp-controller="RScrum" class="btn btn-primary">Ajouter</a>
+
+<div class="container">
+    <h2>Liste des Reunions</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Heure debut</th>
+                <th>Heure Fin</th>
+                <th>Description</th>
+                <th>Sprint</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (RScrum rs in Model)
+            {
+                <tr>
+                    <td>@rs.Id</td>
+                    <td>@rs.Type</td>
+                    <td>@rs.HeureDebut</td>
+                    <td>@rs.HeureFin</td>
+                    <td>@rs.Description</td>
+                    <td>
+                        <ul class="sprint-list">
+                            @{
+                                int count = 0;
+                                foreach (var sprint in rs.Sprints)
+                                {
+                                    <li class="@(count++ >= 3 ? "hidden-sprint" : "")">@sprint.Nom</li>
+                                }
+                            }
+                        </ul>
+                        @if (rs.Sprints.Count > 3)
+                        {
+                            <a href="#" class="show-more">Afficher plus</a>
+                            <a href="#" class="show-less" style="display: none;">Afficher moins</a>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Update" asp-controller="RScrum" asp-route-id="@rs.Id" class="btn btn-primary">Modifier</a>
+                        <a asp-action="Delete" asp-controller="RScrum" onclick="return confirm('vous etes sur de supprimer ?')" asp-route-id="@rs.Id" class="btn btn-danger">Supprimer</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .hidden-sprint {
+        display: none;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.show-more').click(function (e) {
+            e.preventDefault();
+            $(this).siblings('.sprint-list').find('.hidden-sprint').show();
+            $(this).hide();
+            $(this).siblings('.show-less').show();
+        });
+
+        $('.show-less').click(function (e) {
+            e.preventDefault();
+            $(this).siblings('.sprint-list').find('.hidden-sprint').hide();
+            $(this).hide();
+            $(this).siblings('.show-more').show();
+        });
+    });
+</script>
